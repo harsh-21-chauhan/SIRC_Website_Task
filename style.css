@@ -9,10 +9,12 @@
     color: white;
     height: 60px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
    margin-bottom: 20px;
     font-size: 20px;
 }
+
 a{
     color: white;
     text-decoration: none;
@@ -25,8 +27,10 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 35px;
-    height: 150px;
-    background-color: #219ebc;
+    height: 300px;
+    background-image: url("hult_prize_unlimited.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     
     
 }
