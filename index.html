@@ -18,8 +18,19 @@
 
     <div id="title">
         <h1>Hult Prize 2025</h1>
-        <button id = "reg">REGISTER</button>
+      <button id = "reg" onclick = "showForm()">REGISTER</button>
     </div>
+
+    <div class="form-container">
+    <h2>Registration Form</h2>
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="output"></div>
+  </div>
 
     <div id="About">
         <p>Hult Prize is an international competition that collates ideas from students by challenging them to solve a pressing social issue revolving around topics such as food security, water access, energy, environment, and education. Hult Prize inspires student entrepreneurs to solve the world’s biggest challenges through innovative social enterprises with positive global impact. Joining Hult Prize will allow you to learn the necessary fundamentals to become a successful startup founder, Join a diverse global network of entrepreneurs, staff and experts and most importantly help you achieve both, personal and professional growth.</p>
@@ -79,6 +90,7 @@
         <div id="footer">
             <p>© 2025 Hult Prize at IIT KGP. All Rights Reserved.</p>
         </div>
-
+  
+        <script src="script.js"></script>
 </body>
 </html>
